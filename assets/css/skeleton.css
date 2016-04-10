@@ -183,15 +183,36 @@ body {
     z-index: 11;
 }
 .tournament-container {
+    text-align: center;
+}
+.tournament-list {
+    list-style: none; /* Lets remove default bullets for all elements */
+    text-align: center;
+    display: inline-block;
+    background: #000000;
     border-style: solid;
     margin: auto;
-    width: 40%;
+    /*width: 30%;*/
+    border-color: #404040;
+    border-radius: 5px;
 }
-.tournament {
-    font-size: 150%;
-    text-align: center;
+.tournament-list li {
+    margin-right:   5px;
+    margin-left:   5px;
+}
+.tournament-list li:hover{
+    background: #AAAAAA;
+}
+.tournament-list a:hover{
+    text-decoration: none;
+    color:  #FFFFFF;
+}
+.tournament-list a:link,a:visited,a:active{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
-}
+
 /* ID's
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #welcome {

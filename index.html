@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <!-- Basic Page Needs -->
@@ -8,20 +9,32 @@
         <!-- CSS -->
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/skeleton.css">
+        <script src="assets/js/splash.js"></script>
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="images/favicon.png">
     </head>
 
-    <body>
-        <div id="select-container">
-            <h1 id="welcome">Welcome! Please select a tournament to veiw:</h1>
-            <div id="tournament-container">
-                <!-- Stuff -->
-                <!-- Stuff -->
-                <!-- Stuff -->
-                <!-- Stuff -->
+    <body class="splash">
+        <div class="background"></div>
+        <div class="container">
+            <div class="row">
+                <div class="onehalf column splash-focus" style="margin-top: 20%">
+                    <div class="spash-focus">
+                        <h1 id="welcome" >Welcome! </h1>
+                        <div class="tournament-container">
+                            <h4>Please select a tournament to view</h4>
+                            <ul class="tournament-list">
+                                <li class="none"></li>
+                                <a href="dashboard?tid=1"><li>Justin</li></a>
+                                <a href="dashboard?tid=2"><li>Brodie is awesome</li></a>
+                                <a href="dashboard?tid=3"><li>Dan is also Awesome</li></a>
+                                <a href="dashboard?tid=4"><li>This is a really long tournament name</li></a>
+                            </ul>
+                        </div>
+                        <br/><br/>
+                    </div>
+                </div>
             </div>
-            
         </div>
     </body>
 
